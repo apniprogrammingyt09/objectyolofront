@@ -18,7 +18,7 @@ export default function ObjectDetection() {
 
     // Use the appropriate WebSocket URL based on your setup
     // For local development, it might be something like:
-    const wsUrl = "ws://localhost:8000/ws"
+    const wsUrl = "wss://KRISH09bha-object-detection-kodrish.hf.space/ws"
 
     const socket = new WebSocket(wsUrl)
 
